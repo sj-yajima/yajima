@@ -5,6 +5,9 @@ The section below creates a Todo database table with a "content" field. Try
 adding a new "isDone" field as a boolean. The authorization rule below
 specifies that any user authenticated via an API key can "create", "read",
 "update", and "delete" any "Todo" records.
+
+Note: Bedrock の呼び出しは AppSync(30秒上限)を避けるため、この Data API
+ではなく `amplify/functions/bedrock` の Lambda Function URL 経由で行う。
 =========================================================================*/
 const schema = a.schema({
   Todo: a

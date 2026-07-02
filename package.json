@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.31.0",
+    "@anthropic-ai/sdk": "^0.105.0",
     "@aws-amplify/ui-react": "~6.13.2",
+    "@types/wordcloud": "^1.2.2",
     "aws-amplify": "~6.15.10",
+    "aws4fetch": "^1.0.20",
+    "exceljs": "^4.4.0",
+    "plotly.js-dist-min": "^3.6.0",
     "react": "~18.3.1",
-    "react-dom": "~18.3.1"
+    "react-dom": "~18.3.1",
+    "wordcloud": "^1.2.3"
   },
   "engines": {
     "node": ">= 20.20.0",
@@ -25,6 +32,7 @@
     "@eslint/compat": "~2.0.1",
     "@eslint/eslintrc": "~3.3.3",
     "@eslint/js": "~9.39.2",
+    "@types/node": "^26.0.0",
     "@types/react": "~18.3.27",
     "@types/react-dom": "~18.3.7",
     "@typescript-eslint/eslint-plugin": "~8.53.0",
